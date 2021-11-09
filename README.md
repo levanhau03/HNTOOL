@@ -5,7 +5,7 @@
 # USE
 - Download ROM zip from xiaomi
 - Copy to "IN" folder
-- Run auto.exe , select 1
+- Run HNTOOL.exe , select 1
 - for done...
 
 # CREDIT
