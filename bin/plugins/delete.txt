@@ -1,7 +1,3 @@
-/system/system/apex/com.android.wifi/app/OsuLogin
-/system/system/apex/com.android.permission/priv-app/PermissionController
-/system/system/apex/com.android.extservices/priv-app/ExtServices
-
 /system/system/app/AiAsstVision
 /system/system/app/AnalyticsCore
 /system/system/app/AutoRegistration
@@ -161,18 +157,10 @@
 /system/system/app/MIUIsecurityadd
 /system/system/app/MIUISecurityInputMethod
 /system/system/app/MIUISuperMarket
-/system/system/app/MIUISmsExtra
-/system/system/app/MIUIVpnSdkManager
-/system/system/framework/oat/arm64/services.art
-/system/system/framework/oat/arm64/services.odex
-/system/system/framework/oat/arm64/services.vdex
 /system/system/priv-app/MIUIBrowser
 /system/system/priv-app/MIUIVideo
 /system/system/priv-app/MIUINewHome
 /system/system/priv-app/MIUIMusic
 /system/system/priv-app/MIUIPersonalAssistant
 /system/system/priv-app/MIUIYellowPage
-/system/system/priv-app/MIUIContentExtension
 /system/system/priv-app/MIUIQuickSearchBox
-/system/system/priv-app/OriginalInstaller
-/system/system/product/priv-app/SettingsIntelligence
