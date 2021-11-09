@@ -7,3 +7,7 @@
 - Copy to "IN" folder
 - Run auto.exe , select 1
 - for done...
+
+#CREDIT
+- facebook : https://facebook.com/lehauhp
+- telegram : https://t.me/lovemiui
