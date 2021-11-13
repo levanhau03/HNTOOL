@@ -11,3 +11,7 @@
 # CREDIT
 - facebook : https://facebook.com/lehauhp
 - telegram : https://t.me/lovemiui
+
+# BUG
+MIUI need pack services.jar
+I'm writing a plugin , please wait..
