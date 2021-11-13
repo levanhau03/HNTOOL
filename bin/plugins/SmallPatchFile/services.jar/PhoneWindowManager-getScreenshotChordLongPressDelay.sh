@@ -1,8 +1,7 @@
-SMALI_FILE="/smali_classes2/com/android/server/policy/PhoneWindowManager.smali"						#文件路径
-FIND_START='.method private getScreenshotChordLongPressDelay()J'								#解压后要查找的开始代码
-FILE_END='.end method'																	#解压后要查找的结束代码
+SMALI_FILE="/smali_classes2/com/android/server/policy/PhoneWindowManager.smali"
+FIND_START='.method private getScreenshotChordLongPressDelay()J'
+FILE_END='.end method'
 
-#要替换的内容
 REPLACE_CODE='
 .method private  getScreenshotChordLongPressDelay()J
     .locals 3
