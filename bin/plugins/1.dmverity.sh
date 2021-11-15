@@ -28,7 +28,7 @@ echo "=================================================="
 sed -i 's/secure=0/secure=1/' $PROJECT/vendor/default.prop
 for file in `find $PROJECT/vendor/etc/*stab* -type f` ;do
 	fstab="$file"
-	echo "- Xử lý mã hóa: $fstab"
+	echo "- Encryption: $fstab"
 	sed -i "s/fileencryption=/encryptable=/g" $file
 	sed -i 's/forceencrypt=/encryptable=/' $fstab
 	sed -i 's/forcefdeorfbe=/encryptable=/' $fstab
@@ -39,5 +39,3 @@ for file in `find $PROJECT/vendor/etc/*stab* -type f` ;do
 	sed -i 's/,avb=vbmeta//g' $fstab
 	sed -i 's/,avb//g' $fstab
 done
-
-cp -f dmverity/vbmeta.img $PROJECT/firmware-update/vbmeta.img

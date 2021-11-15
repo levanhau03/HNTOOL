@@ -20,11 +20,6 @@ system=system
 systemroot=false
 fi;
 
-echo "- Name = $(getprop ro.product.system.model $PROJECT/$system/build.prop)"
-echo "- Device = $(getprop ro.product.vendor.device $PROJECT/vendor/build.prop)"
-echo "- System as-root = $systemroot"
-echo "=================================================="
-
 for i in $(cat delete.txt); do
 	if [ -f $PROJECT$i ]
 	then
@@ -39,5 +34,3 @@ for i in $(cat delete.txt); do
 		fi
 	fi
 done
-
-echo "Đã xóa xong mục chỉ định"
