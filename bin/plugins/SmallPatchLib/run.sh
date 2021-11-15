@@ -67,7 +67,7 @@ doInsert(){
 		oldStr=`sed -n "/$FIND_START/,/$FILE_END/p" $FINS_RES`
 		if [ ! -n "$FIND_START" ];then oldStr=$DEFAULT_CODE ;fi
 		if [ -n "$oldStr" ];then
-			res=`python $SHELL_PATH/repStr.py "$FINS_RES" "$oldStr" "$REPLACE_CODE"`
+			res=`$SHELL_PATH/repStr "$FINS_RES" "$oldStr" "$REPLACE_CODE"`
 			echo -en  "\n>>>>Finish processing: Insertion is complete"
 		else
 			echo -en  "\n>>>>No insertion point: $FILE_END"
@@ -84,7 +84,6 @@ doInsert(){
 }
 
 
-echo -en  "\n>>Clear all"
 rm -rf ${SmallTempPath}
 mkdir -p ${SmallTempPath}
 
@@ -104,7 +103,4 @@ for line in $(cat ${SmallPatchPath}/FileConfig.ini) ; do
 		doUnApk "${line}" "${SmallPatchPath}/${line##*/}"
 	fi
 done
-
-
 rm -rf ${SmallTempPath}
-echo -en  "\n>>Completed measuring tool\n"
