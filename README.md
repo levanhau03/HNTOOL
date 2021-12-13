@@ -3,10 +3,10 @@
 - plugin support ( 1.dmverity.sh , 2.debloat.sh )
 - ...
 # USE
-- Install jdk-8u301-windows-x64
-- Download ROM zip from xiaomi
-- Copy to "IN" folder
-- Run HNTOOL.exe , select 1
+- Install jdk-8u**
+- Download .zip ROM from xiaomi
+- copy .zip ROM same folder as HNA.exe
+- Run HNA.exe , select 1
 - for done...
 
 # CREDIT
