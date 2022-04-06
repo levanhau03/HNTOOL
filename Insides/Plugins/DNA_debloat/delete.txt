@@ -87,7 +87,6 @@
 /system/system/priv-app/MiGameCenterSDKService
 /system/system/priv-app/MiRcs
 /system/system/priv-app/MiService
-/system/system/priv-app/MiuiPackageInstaller
 /system/system/priv-app/NewHome
 /system/system/priv-app/ONS
 /system/system/priv-app/PlatformNetworkPermissionConfig
