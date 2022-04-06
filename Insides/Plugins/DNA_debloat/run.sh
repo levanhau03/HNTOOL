@@ -10,7 +10,9 @@ PROJECT=${1}					#Project catalog
 SHELL=$(readlink -f "$0")			#Script file
 SHELL_PATH=$(dirname $SHELL)		#Script path
 
-for i in $(cat delete.txt); do
+echo "Project: $PROJECT"
+
+for i in $(cat $SHELL_PATH/delete.txt); do
 	if [ -f $PROJECT$i ]
 	then
 		if [ -f "$PROJECT$i" ] ; then

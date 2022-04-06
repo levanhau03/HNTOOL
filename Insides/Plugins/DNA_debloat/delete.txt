@@ -104,7 +104,6 @@
 /system/system/product/priv-app/OneTimeInitializer
 
 /system/system/system_ext/app/DeviceInfo
-/system/system/system_ext/app/FM
 /system/system/system_ext/app/QCC
 /system/system/system_ext/app/QCC-AUTHMGR
 /system/system/system_ext/app/QdcmFF
@@ -151,6 +150,8 @@
 /system/system/app/MiuiPrintSpoolerBeta
 /system/system/app/MIUISuperMarket
 /system/system/app/MIUITouchAssistant
+/system/system/app/MIUISecurityInputMethod
+
 /system/system/etc/auto-install.json
 /system/system/etc/auto-install2.json
 /system/system/priv-app/BlockedNumberProvider
@@ -161,6 +162,11 @@
 /system/system/priv-app/MIUIBrowser
 /system/system/priv-app/MIUIContentExtension
 /system/system/priv-app/MusicFX
+/system/system/priv-app/MIUIMusic
+/system/system/priv-app/MIUINewHome
+
+
+
 /system/system/priv-app/ONS
 /system/system/priv-app/UserDictionaryProvider
 /system/system/product/app/aiasst_service
@@ -170,4 +176,5 @@
 /system/system/system_ext/app/DeviceStatisticsService
 /system/system/system_ext/app/WAPPushManager
 /system/system/system_ext/app/xdivert
+/system/system/system_ext/app/FM2
 /system/system/system_ext/priv-app/dpmserviceapp
