@@ -73,7 +73,6 @@
 /system/system/data-app/VipAccount
 /system/system/data-app/VirtualSim
 /system/system/data-app/XiaoAiSpeechEngine
-/system/system/data-app/XMRemoteController
 /system/system/data-app/Youpin
 
 /system/system/media/bootaudio.mp3
@@ -88,7 +87,6 @@
 /system/system/priv-app/MiGameCenterSDKService
 /system/system/priv-app/MiRcs
 /system/system/priv-app/MiService
-/system/system/priv-app/MiuiHome
 /system/system/priv-app/MiuiPackageInstaller
 /system/system/priv-app/NewHome
 /system/system/priv-app/ONS
