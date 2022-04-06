@@ -74,7 +74,7 @@ doInsert(){
 		oldStr=`sed -n "/$FIND_START/,/$FILE_END/p" $FINS_RES`
 		if [ ! -n "$FIND_START" ];then oldStr=$DEFAULT_CODE ;fi
 		if [ -n "$oldStr" ];then
-			res=`python3 $SHELL_PATH/SmallPatchLib/repStr "$FINS_RES" "$oldStr" "$REPLACE_CODE"`
+			res=`$SHELL_PATH/SmallPatchLib/repStr "$FINS_RES" "$oldStr" "$REPLACE_CODE"`
 			echo -en  "\n>>>>Finish processing: Insertion is complete"
 		else
 			echo -en  "\n>>>>No insertion point: $FILE_END"
