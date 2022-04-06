@@ -4,7 +4,6 @@
 /system/system/app/AutoTest
 /system/system/app/BasicDreams
 /system/system/app/BookmarkProvider
-/system/system/app/CarrierDefaultApp
 /system/system/app/com.xiaomi.macro
 /system/system/app/CompanionDeviceManager
 /system/system/app/FidoAuthen
@@ -38,7 +37,6 @@
 /system/system/app/SecureElement
 /system/system/app/SecurityInputMethod
 /system/system/app/SimAppDialog
-/system/system/app/Stk
 /system/system/app/TouchAssistant
 /system/system/app/Traceur
 /system/system/app/TranslationService
@@ -75,8 +73,6 @@
 /system/system/data-app/XiaoAiSpeechEngine
 /system/system/data-app/Youpin
 
-/system/system/media/bootaudio.mp3
-
 /system/system/priv-app/Browser
 /system/system/priv-app/BuiltInPrintService
 /system/system/priv-app/ContentExtension
@@ -86,7 +82,6 @@
 /system/system/priv-app/MiuiVideo
 /system/system/priv-app/MiGameCenterSDKService
 /system/system/priv-app/MiRcs
-/system/system/priv-app/MiService
 /system/system/priv-app/NewHome
 /system/system/priv-app/ONS
 /system/system/priv-app/PlatformNetworkPermissionConfig
@@ -98,7 +93,6 @@
 /system/system/product/app/aiasst_service
 /system/system/product/app/PhotoTable
 /system/system/product/app/talkback
-/system/system/product/priv-app/OneTimeInitializer
 
 /system/system/system_ext/app/DeviceInfo
 /system/system/system_ext/app/QCC
@@ -151,11 +145,9 @@
 
 /system/system/etc/auto-install.json
 /system/system/etc/auto-install2.json
-/system/system/priv-app/BlockedNumberProvider
 /system/system/priv-app/BuiltInPrintService
 /system/system/priv-app/DynamicSystemInstallationService
 /system/system/priv-app/MiRcs
-/system/system/priv-app/MIService
 /system/system/priv-app/MIUIBrowser
 /system/system/priv-app/MIUIContentExtension
 /system/system/priv-app/MusicFX
